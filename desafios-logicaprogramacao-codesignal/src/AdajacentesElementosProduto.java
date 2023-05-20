@@ -4,7 +4,7 @@ public class AdajacentesElementosProduto {
 
         System.out.println(solution(numeros));
     }
-   
+
    static int solution(int[] inputArray) {
 
 
