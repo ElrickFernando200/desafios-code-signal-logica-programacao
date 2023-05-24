@@ -59,7 +59,7 @@ public class QuaseSequenciaCrescente {
          if (falso >= 2){
             return false;
          }
-          return true;
+       return true;
 
     }
 
