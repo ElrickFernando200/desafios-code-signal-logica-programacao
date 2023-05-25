@@ -16,9 +16,13 @@ public class SomaDosElementosDaMatriz {
                     if (a == 2){
                         break Loop1;
                     }
+                }else {
+                    if (a == 1) {
+                        break Loop1;
+                    }
                 }
-                if (matrix[a][b] == 0){
 
+                if (matrix[a][b] == 0){
                     int aux = 0;
                     while( aux < matrix.length ){
                         if (a+1 > matrix.length -1){
